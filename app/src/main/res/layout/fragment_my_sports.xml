@@ -1,0 +1,17 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/sports_container" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="20dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Choose a sport" android:textSize="22sp" android:textStyle="bold"
+            android:textColor="#222222" android:paddingBottom="16dp" />
+        <Button android:id="@+id/btn_football" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Football" />
+        <Button android:id="@+id/btn_basketball" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Basketball" />
+        <Button android:id="@+id/btn_volleyball" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Volleyball" />
+        <Button android:id="@+id/btn_tennis" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Tennis" />
+    </LinearLayout>
+</ScrollView>
